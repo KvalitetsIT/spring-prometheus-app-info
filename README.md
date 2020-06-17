@@ -1,0 +1,1 @@
+# spring-prometheus-app-info
