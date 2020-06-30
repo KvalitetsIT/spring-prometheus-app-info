@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+dk.kvalitetsit.com.mycorp.libx.autoconfigure.LibXAutoConfiguration,\
+com.mycorp.libx.autoconfigure.LibXWebAutoConfiguration
