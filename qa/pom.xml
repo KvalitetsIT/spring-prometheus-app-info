@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>dk.kvalitetsit</groupId>
 		<artifactId>spring-prometheus-app-info</artifactId>
-		<version>0.0.4-SNAPSHOT</version>
+		<version>0.0.4</version>
 	</parent>
 	<artifactId>qa</artifactId>
 	<dependencies>
