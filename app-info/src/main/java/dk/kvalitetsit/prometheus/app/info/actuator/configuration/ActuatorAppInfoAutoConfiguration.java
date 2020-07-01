@@ -13,10 +13,10 @@ import org.springframework.context.annotation.PropertySource;
 
 import java.util.List;
 
-@AutoConfigurationConfiguration
+@Configuration
 @PropertySource("actuator.properties")
 @PropertySource(value = "git.properties", ignoreResourceNotFound = true)
-public class AppInfoConfiguration {
+public class ActuatorAppInfoAutoConfiguration {
     @Bean
     public VersionInfoContributor versionInfo(VersionProvider versionProvider) {
         return new VersionInfoContributor(versionProvider);

@@ -8,7 +8,7 @@ import java.util.Collections;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class VersionProviderTest {
+public class GitVersionProviderTest {
     @Test
     public void testBuildVersionNoTag() {
         var commit = "abc";
