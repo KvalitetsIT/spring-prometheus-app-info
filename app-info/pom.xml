@@ -2,11 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>dk.kvalitetsit</groupId>
-		<artifactId>spring-prometheus-app-info</artifactId>
+		<artifactId>spring-prometheus-app-info-parent</artifactId>
 		<version>0.0.5-SNAPSHOT</version>
 	</parent>
 	<packaging>jar</packaging>
-	<artifactId>app-info</artifactId>
+	<artifactId>spring-prometheus-app-info</artifactId>
 
 	<dependencies>
 		<!-- Actuator so it possible to get metrics -->
