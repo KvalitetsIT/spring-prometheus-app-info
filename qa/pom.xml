@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>dk.kvalitetsit</groupId>
 		<artifactId>spring-actuator-app-info</artifactId>
-		<version>0.0.3</version>
+		<version>0.0.4-SNAPSHOT</version>
 	</parent>
 	<artifactId>qa</artifactId>
 	<dependencies>
