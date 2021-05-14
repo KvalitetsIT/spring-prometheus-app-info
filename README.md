@@ -1,3 +1,4 @@
+[![Build And Test](https://github.com/KvalitetsIT/spring-prometheus-app-info/actions/workflows/build.yml/badge.svg)](https://github.com/KvalitetsIT/spring-prometheus-app-info/actions/workflows/build.yml) ![Test Coverage](.github/badges/jacoco.svg)
 # spring-prometheus-app-info
 
 Utility to provide application version etc. to prometheus.
