@@ -14,7 +14,7 @@ import org.springframework.context.annotation.PropertySource;
 import java.util.List;
 
 @Configuration
-@PropertySource("src/main/resources/actuator.properties")
+@PropertySource("actuator.properties")
 @PropertySource(value = "actuator-custom.properties", ignoreResourceNotFound = true)
 @PropertySource(value = "git.properties", ignoreResourceNotFound = true)
 public class ActuatorAppInfoAutoConfiguration {
