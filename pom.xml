@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>dk.kvalitetsit</groupId>
 	<artifactId>spring-prometheus-app-info</artifactId>
-	<version>1.0.3-SNAPSHOT</version>
+	<version>1.0.3</version>
 	<packaging>jar</packaging>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -16,7 +16,7 @@
 
 	<scm>
 		<connection>scm:git:git@github.com:KvalitetsIT/spring-prometheus-app-info.git</connection>
-		<tag>HEAD</tag>
+		<tag>v1.0.3</tag>
 	</scm>
 
 	<distributionManagement>
