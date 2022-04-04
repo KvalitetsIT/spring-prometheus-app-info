@@ -1,5 +1,5 @@
 import dk.kvalitetsit.prometheus.app.info.actuator.GitVersionProvider;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.boot.actuate.info.Info;
 
