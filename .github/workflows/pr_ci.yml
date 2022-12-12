@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: jacoco-report
-          path: target/site/jacoco-aggregate/
+          path: target/site/jacoco/
 
       - name: Save PR number
         run: |
@@ -39,4 +39,4 @@ jobs:
           name: pr
           path: |
             pr/
-            target/site/jacoco-aggregate/jacoco.csv
+            target/site/jacoco/jacoco.csv
