@@ -65,3 +65,8 @@ jobs:
       run: ./build/maven-run.sh
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
+        MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
+        SIGN_KEY: ${{ secrets.MAVEN_SIGN_KEY }}
+        SIGN_KEY_ID: ${{ secrets.MAVEN_SIGN_KEY_ID }}
+        SIGN_KEY_PASS: ${{ secrets.MAVEN_KEY_PASSPHRASE }}
