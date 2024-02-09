@@ -1,5 +1,6 @@
 package dk.kvalitetsit.prometheus.app.info.actuator;
 
+import io.micrometer.common.lang.NonNull;
 import io.micrometer.core.instrument.Gauge;
 import io.micrometer.core.instrument.MeterRegistry;
 import io.micrometer.core.instrument.Tag;
@@ -22,7 +23,7 @@ public class ApplicationInformationProbe implements MeterBinder {
     }
 
     @Override
-    public void bindTo(final MeterRegistry meterRegistry) {
+    public void bindTo(@NonNull final MeterRegistry meterRegistry) {
         Gauge.builder(name, this, value -> serviceStatus())
                 .description(description)
                 .tags(tags())
