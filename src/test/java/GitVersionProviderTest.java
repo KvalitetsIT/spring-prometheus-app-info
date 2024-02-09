@@ -54,4 +54,14 @@ public class GitVersionProviderTest {
 
         assertEquals("dev", version);
     }
+
+
+    @Test
+    public void testCommitIdWhenTagIsNull() {
+        var versionInfoContributor = new GitVersionProvider("commit", null);
+
+        var version= versionInfoContributor.getVersion();
+
+        assertEquals("commit", version);
+    }
 }
