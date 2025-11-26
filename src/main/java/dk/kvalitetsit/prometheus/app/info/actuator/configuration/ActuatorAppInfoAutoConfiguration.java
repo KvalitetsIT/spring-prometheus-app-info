@@ -5,9 +5,9 @@ import dk.kvalitetsit.prometheus.app.info.actuator.GitVersionProvider;
 import dk.kvalitetsit.prometheus.app.info.actuator.VersionInfoContributor;
 import dk.kvalitetsit.prometheus.app.info.actuator.VersionProvider;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.actuate.health.HealthEndpoint;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
+import org.springframework.boot.health.actuate.endpoint.HealthEndpoint;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.PropertySource;
 
